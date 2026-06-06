@@ -33,7 +33,7 @@ class Clawband < Formula
   end
 
   def caveats
-    <<~EOS
+    <<~CAVEAT
       clawband is installed, but it is not yet wired into Claude Code.
 
       Register it as a PreToolUse hook in ~/.claude/settings.json:
@@ -51,7 +51,7 @@ class Clawband < Formula
 
       Then run /hooks in Claude Code (or restart) to activate.
       See: https://github.com/jamessoubry/clawband#installation
-    EOS
+    CAVEAT
   end
 
   test do
