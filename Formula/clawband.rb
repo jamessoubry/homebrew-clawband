@@ -6,28 +6,28 @@
 class Clawband < Formula
   desc "PreToolUse hook for Claude Code that blocks destructive shell commands"
   homepage "https://github.com/jamessoubry/clawband"
-  version "3.12.0"
+  version "3.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jamessoubry/clawband/releases/download/v3.12.0/clawband-macos-arm64"
-      sha256 "4a151fe930dc0a7959bae8c97f9937a492916af52970786c31440a21ddba74ea"
+      url "https://github.com/jamessoubry/clawband/releases/download/v3.13.0/clawband-macos-arm64"
+      sha256 "89fa304299efd7dbfb46eaf962625634edc60bf8b365e1ea36c22d5f9815458b"
     end
     on_intel do
-      url "https://github.com/jamessoubry/clawband/releases/download/v3.12.0/clawband-macos-x86_64"
-      sha256 "2cee1eccdef2960f064fee6b1fdd7a8446e14c2dafbac872c91b4b7c81860018"
+      url "https://github.com/jamessoubry/clawband/releases/download/v3.13.0/clawband-macos-x86_64"
+      sha256 "4808f48d3fd841352d6f8d220722330b5f026ff75597bfa21d94feac0f676cfc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jamessoubry/clawband/releases/download/v3.12.0/clawband-linux-arm64"
-      sha256 "59e58699a9b309aa27c5bcba70c57f19c5bf005d22c93cacf7c64cf14bda10ad"
+      url "https://github.com/jamessoubry/clawband/releases/download/v3.13.0/clawband-linux-arm64"
+      sha256 "7554c9939b29935b4ed8f192b60ebd8508553e5f0e4cb3d12e0f0d3e5231a67e"
     end
     on_intel do
-      url "https://github.com/jamessoubry/clawband/releases/download/v3.12.0/clawband-linux-x86_64"
-      sha256 "1579beef44f1912c351d7fc457f3e6fe8995c89f5597174ce043e5f6d659dd0a"
+      url "https://github.com/jamessoubry/clawband/releases/download/v3.13.0/clawband-linux-x86_64"
+      sha256 "b2c04e3b22f92c0aa62d00c87e972ec682cda14b6e4b9ce3844e16936947c8fc"
     end
   end
 
